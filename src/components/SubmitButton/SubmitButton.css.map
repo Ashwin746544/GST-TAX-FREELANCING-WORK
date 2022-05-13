@@ -1,0 +1,9 @@
+{
+    "version": 3,
+    "mappings": "AAAA,AAAA,gBAAgB,CAAC;EACb,UAAU,EAAE,OAAO;EACnB,aAAa,EAAE,GAAG;EAClB,WAAW,EAAE,GAAG;EAChB,SAAS,EAAE,eAAe;EAC1B,WAAW,EAAE,eAAe;EAC5B,UAAU,EAAE,MAAM;EAClB,KAAK,EAAE,OAAO;EACd,KAAK,EAAE,IAAI;CACd",
+    "sources": [
+        "SubmitButton.scss"
+    ],
+    "names": [],
+    "file": "SubmitButton.css"
+}

@@ -1,0 +1,40 @@
+.navbar-section-wrapper {
+  box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.06);
+  background-color: $bg-white;
+
+  .nav-tab {
+    .page-heading {
+      font-size: 1rem;
+      padding: 0 1rem;
+      font-weight: 200;
+      font-size: 1rem;
+      line-height: 1.2rem;
+      font-family: $main-font;
+      padding-bottom: 0.5rem;
+    }
+    .active {
+      font-style: normal;
+      font-weight: 700;
+      border-bottom: 4px solid $active-border-color;
+    }
+  }
+
+  .heading {
+    font-style: normal;
+    font-weight: 500;
+    font-size: 1.25rem;
+    line-height: 2rem;
+    color: $main-color;
+    font-family: $main-font;
+  }
+
+  .sub-heading {
+    font-style: normal;
+    font-weight: 400;
+    font-size: 1rem;
+    line-height: 2rem;
+    color: $main-color;
+    font-family: $main-font;
+  }
+}
+/*# sourceMappingURL=NavBar.css.map */

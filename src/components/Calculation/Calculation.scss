@@ -1,0 +1,41 @@
+.calculation-wrapper {
+  background-color: $bg-white;
+  padding: 1rem;
+
+  .calculation-heading {
+    h5 {
+      font-family: $main-font;
+      font-style: normal;
+      font-weight: 500;
+      font-size: 18px;
+      line-height: 22px;
+      color: #000000;
+    }
+    .entity-heading {
+      font-style: normal;
+      font-weight: 400;
+      font-size: 14px;
+      line-height: 17px;
+      color: $active-border-color;
+    }
+  }
+
+  .calculation-method-wrapper {
+    .calculation-heading-container {
+      gap: 5rem;
+
+      .calc-name-wrapper {
+        .calc-name-container {
+          font-style: normal;
+          font-weight: 400;
+          font-size: 14px;
+          line-height: 17px;
+        }
+      }
+    }
+  }
+
+  .calculation-method{
+    gap: 2rem;
+  }
+}

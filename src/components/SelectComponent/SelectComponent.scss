@@ -1,0 +1,16 @@
+.selected-options-container {
+    .selected-option {
+        background: #AFC4E9;
+        border-radius: 50px;
+        font-size: 12px;
+        line-height: 24px;
+        color: #31485E;
+        padding: 2px 15px;
+        .delete-option {
+            cursor: pointer;
+        }
+        .delete-option:hover {
+            color: black;
+        }
+    }
+}

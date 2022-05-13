@@ -1,0 +1,29 @@
+.left-side-bar {
+  background-color: #515967;
+  height: 100vh;
+}
+
+.w-20 {
+  width: 20% !important;
+}
+
+.w-80 {
+  width: 80% !important;
+}
+
+ul {
+  list-style: none !important;
+  margin: 0 !important;
+  padding: 0 !important;
+}
+
+a {
+  color: #000000 !important;
+  text-decoration: none !important;
+}
+
+body {
+  color: #31485E !important;
+  font-family: "Inter" !important;
+}
+/*# sourceMappingURL=App.css.map */

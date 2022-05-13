@@ -1,0 +1,375 @@
+.left-side-bar {
+  background-color: #515967;
+  height: 100%;
+}
+
+.w-20 {
+  width: 20% !important;
+}
+
+.w-80 {
+  width: 80% !important;
+}
+
+ul {
+  list-style: none !important;
+  margin: 0 !important;
+  padding: 0 !important;
+}
+
+a {
+  color: #000000 !important;
+  text-decoration: none !important;
+}
+
+body {
+  color: #31485E !important;
+  font-family: "Inter" !important;
+}
+
+.right-section-wrapper {
+  background-color: #F2F6FA;
+  padding: 0.5rem 1rem;
+}
+
+.routes-container {
+  margin: 2rem 2.25rem 0;
+}
+
+.page-wrapper {
+  padding: 1.5rem;
+  background-color: #FFFFFF;
+}
+
+.navbar-section-wrapper {
+  -webkit-box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.06);
+          box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.06);
+  background-color: #FFFFFF;
+}
+
+.navbar-section-wrapper .nav-tab .page-heading {
+  font-size: 1rem;
+  padding: 0 1rem;
+  font-weight: 200;
+  font-size: 1rem;
+  line-height: 1.2rem;
+  font-family: "Inter";
+  padding-bottom: 0.5rem;
+}
+
+.navbar-section-wrapper .nav-tab .active {
+  font-style: normal;
+  font-weight: 700;
+  border-bottom: 4px solid #3476E4;
+}
+
+.navbar-section-wrapper .heading {
+  font-style: normal;
+  font-weight: 500;
+  font-size: 1.25rem;
+  line-height: 2rem;
+  color: #31485E;
+  font-family: "Inter";
+}
+
+.navbar-section-wrapper .sub-heading {
+  font-style: normal;
+  font-weight: 400;
+  font-size: 1rem;
+  line-height: 2rem;
+  color: #31485E;
+  font-family: "Inter";
+}
+.business-tab .business-tab-link {
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 16px;
+  color: #31485E;
+  opacity: 0.6;
+}
+
+.business-tab .active {
+  background: #3476E4;
+  border-radius: 22px;
+  color: #FFFFFF !important;
+  opacity: 1;
+}
+
+.title-search-wrapper {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+.title-search-wrapper .title {
+  color: #000000;
+  font-family: "Inter";
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 17px;
+}
+
+.title-search-wrapper .search-wrapper {
+  position: relative;
+}
+
+.title-search-wrapper .search-wrapper .search-input {
+  width: 303px;
+  height: 32px;
+  padding-left: 2.5rem;
+  background: #f6f9fd;
+  outline: 1px solid #dbe4ed;
+  outline-offset: -1px;
+  border: none;
+  border-radius: 2rem;
+}
+
+.title-search-wrapper .search-wrapper .search-input::-webkit-input-placeholder {
+  color: #31485e;
+  font-family: "Roboto";
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 16px;
+  opacity: 0.4;
+}
+
+.title-search-wrapper .search-wrapper .search-input:-ms-input-placeholder {
+  color: #31485e;
+  font-family: "Roboto";
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 16px;
+  opacity: 0.4;
+}
+
+.title-search-wrapper .search-wrapper .search-input::-ms-input-placeholder {
+  color: #31485e;
+  font-family: "Roboto";
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 16px;
+  opacity: 0.4;
+}
+
+.title-search-wrapper .search-wrapper .search-input::placeholder {
+  color: #31485e;
+  font-family: "Roboto";
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 16px;
+  opacity: 0.4;
+}
+
+.title-search-wrapper .search-wrapper .searchIcon {
+  position: absolute;
+  left: 8.33%;
+  right: 12.5%;
+  top: 33.33%;
+  bottom: 12.5%;
+}
+
+.calculation-wrapper {
+  background-color: #FFFFFF;
+  padding: 1rem;
+}
+
+.calculation-wrapper .calculation-heading h5 {
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 18px;
+  line-height: 22px;
+  color: #000000;
+}
+
+.calculation-wrapper .calculation-heading .entity-heading {
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 17px;
+  color: #3476E4;
+}
+
+.calculation-wrapper .calculation-method-wrapper .calculation-heading-container {
+  gap: 5rem;
+}
+
+.calculation-wrapper .calculation-method-wrapper .calculation-heading-container .calc-name-wrapper .calc-name-container {
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 17px;
+}
+
+.calculation-wrapper .calculation-method {
+  gap: 2rem;
+}
+
+.record-table table {
+  border-collapse: separate;
+  border-spacing: 0 0.75em;
+}
+
+.record-table table tr {
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 17px;
+  color: #31485e;
+  cursor: pointer;
+}
+
+.record-table table tr th {
+  padding: 5px 15px;
+}
+
+.record-table table tr td {
+  padding: 5px 15px 15px 15px;
+  border-bottom: 0.5px solid #eaeef2;
+}
+
+.record-table table tr .status {
+  display: inline-block;
+  height: 29px;
+  width: 82px;
+  text-align: center;
+  line-height: 29px;
+  color: #FFFFFF;
+  border-radius: 50px;
+}
+
+.record-table table tr .status-active {
+  background-color: #71a3f7;
+}
+
+.record-table table tr .status-inactive {
+  background-color: #DF9090;
+}
+
+.record-table table tr .dot {
+  display: inline-block;
+  margin-right: 5px;
+  width: 10px;
+  height: 10px;
+  border-radius: 50%;
+}
+
+.record-table table tr .buttons {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-align: stretch;
+      -ms-flex-align: stretch;
+          align-items: stretch;
+  text-align: center;
+  width: 100px;
+  padding: 5px 0px 15px 0px;
+}
+
+.record-table table tr .buttons .row-edit-button,
+.record-table table tr .buttons .row-delete-button {
+  border: none;
+  background: none;
+  height: 29px;
+}
+
+.record-table .add-more-btn {
+  color: #2a74f1;
+  background: none;
+  border: none;
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 17px;
+  text-align: center;
+  margin-bottom: 2.5rem;
+}
+
+.calculation-wrapper {
+  background-color: #FFFFFF;
+  padding: 1rem;
+}
+
+.calculation-wrapper .calculation-heading h5 {
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 18px;
+  line-height: 22px;
+  color: #000000;
+}
+
+.calculation-wrapper .calculation-heading .entity-heading {
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 17px;
+  color: #3476E4;
+}
+
+.calculation-wrapper .calculation-method-wrapper .calculation-heading-container {
+  gap: 5rem;
+}
+
+.calculation-wrapper .calculation-method-wrapper .calculation-heading-container .calc-name-wrapper .calc-name-container {
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 17px;
+}
+
+.calculation-wrapper .calculation-method {
+  gap: 2rem;
+}
+
+.UserForm label {
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 17px;
+  /* identical to box height */
+  color: #31485E;
+}
+
+.selected-options-container .selected-option {
+  background: #AFC4E9;
+  border-radius: 50px;
+  font-size: 12px;
+  line-height: 24px;
+  color: #31485E;
+  padding: 2px 15px;
+}
+
+.selected-options-container .selected-option .delete-option {
+  cursor: pointer;
+}
+
+.selected-options-container .selected-option .delete-option:hover {
+  color: black;
+}
+
+.switch-container input {
+  width: 45px !important;
+  height: 18px;
+  margin-right: 10px;
+}
+
+.UserForm-submit {
+  background: #2A74F1;
+  border-radius: 4px;
+  font-weight: 500;
+  font-size: 14px !important;
+  line-height: 17px !important;
+  text-align: center;
+  color: #FFFFFF;
+  width: 95px;
+}
+/*# sourceMappingURL=styles.css.map */

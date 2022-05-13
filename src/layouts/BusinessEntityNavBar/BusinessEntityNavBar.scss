@@ -1,0 +1,16 @@
+.business-tab{
+    .business-tab-link {
+        font-style: normal;
+        font-weight: 400;
+        font-size: 14px;
+        line-height: 16px;
+        color: $main-color;
+        opacity: 0.6;
+      }
+      .active{
+        background: $active-border-color;
+        border-radius: 22px;
+        color: $bg-white !important;
+        opacity: 1;
+      }
+}

@@ -1,0 +1,9 @@
+{
+    "version": 3,
+    "mappings": "AAAA,AACI,iBADa,CACb,KAAK,CAAC;EACF,KAAK,EAAE,eAAe;EACtB,MAAM,EAAE,IAAI;EACZ,YAAY,EAAE,IAAI;CACrB",
+    "sources": [
+        "SwitchComponent.scss"
+    ],
+    "names": [],
+    "file": "SwitchComponent.css"
+}

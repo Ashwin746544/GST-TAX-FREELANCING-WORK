@@ -1,0 +1,39 @@
+.title-search-wrapper {
+  display: flex;
+  justify-content: space-between;
+  .title {
+    color: #000000;
+    font-family: $main-font;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 17px;
+  }
+  .search-wrapper {
+    position: relative;
+    .search-input {
+      width: 303px;
+      height: 32px;
+      padding-left: 2.5rem;
+      background: #f6f9fd;
+      outline: 1px solid #dbe4ed;
+      outline-offset: -1px;
+      border: none;
+      border-radius: 2rem;
+    }
+    .search-input::placeholder {
+      color: #31485e;
+      font-family: $roboto-font;
+      font-weight: 400;
+      font-size: 14px;
+      line-height: 16px;
+      opacity: 0.4;
+    }
+    .searchIcon {
+      position: absolute;
+      left: 8.33%;
+      right: 12.5%;
+      top: 33.33%;
+      bottom: 12.5%;
+    }
+  }
+}

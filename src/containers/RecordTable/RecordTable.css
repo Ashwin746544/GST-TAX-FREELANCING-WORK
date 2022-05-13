@@ -1,0 +1,85 @@
+.record-table table {
+  border-collapse: separate;
+  border-spacing: 0 0.75em;
+}
+
+.record-table table tr {
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 17px;
+  color: #31485e;
+  cursor: pointer;
+}
+
+.record-table table tr th {
+  padding: 5px 15px;
+}
+
+.record-table table tr td {
+  padding: 5px 15px 15px 15px;
+  border-bottom: 0.5px solid #eaeef2;
+}
+
+.record-table table tr .status {
+  display: inline-block;
+  height: 29px;
+  width: 82px;
+  text-align: center;
+  line-height: 29px;
+  color: #FFFFFF;
+  border-radius: 50px;
+}
+
+.record-table table tr .status-active {
+  background-color: #71a3f7;
+}
+
+.record-table table tr .status-inactive {
+  background-color: #DF9090;
+}
+
+.record-table table tr .dot {
+  display: inline-block;
+  margin-right: 5px;
+  width: 10px;
+  height: 10px;
+  border-radius: 50%;
+}
+
+.record-table table tr .buttons {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-align: stretch;
+      -ms-flex-align: stretch;
+          align-items: stretch;
+  text-align: center;
+  width: 100px;
+  padding: 5px 0px 15px 0px;
+}
+
+.record-table table tr .buttons .row-edit-button,
+.record-table table tr .buttons .row-delete-button {
+  border: none;
+  background: none;
+  height: 29px;
+}
+
+.record-table .add-more-btn {
+  color: #2a74f1;
+  background: none;
+  border: none;
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 17px;
+  text-align: center;
+  margin-bottom: 2.5rem;
+}
+/*# sourceMappingURL=RecordTable.css.map */
